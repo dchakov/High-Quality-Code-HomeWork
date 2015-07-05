@@ -1,0 +1,13 @@
+C:\Users\Nevena\Dropbox\education\ChapterVIII_Homework_HQPC\Hihg-Quality-Code-HomeWork\02.CodeFormatting\bin\Debug\02.CodeFormatting.exe.config
+C:\Users\Nevena\Dropbox\education\ChapterVIII_Homework_HQPC\Hihg-Quality-Code-HomeWork\02.CodeFormatting\obj\Debug\02.CodeFormatting.csprojResolveAssemblyReference.cache
+C:\Users\Nevena\Dropbox\education\ChapterVIII_Homework_HQPC\High-Quality-Code-HomeWork\02. CodeFormatting\02.CodeFormatting\bin\Debug\02.CodeFormatting.exe.config
+C:\Users\Nevena\Dropbox\education\ChapterVIII_Homework_HQPC\High-Quality-Code-HomeWork\02-Code Formatting\02.CodeFormatting\bin\Debug\02.CodeFormatting.exe.config
+C:\Users\Nevena\Dropbox\education\ChapterVIII_Homework_HQPC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\bin\Debug\02.CodeFormatting.exe.config
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\bin\Debug\02.CodeFormatting.exe.config
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\bin\Debug\02.CodeFormatting.exe
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\bin\Debug\02.CodeFormatting.pdb
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\bin\Debug\PowerCollections.dll
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\bin\Debug\PowerCollections.xml
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\obj\Debug\02.CodeFormatting.csprojResolveAssemblyReference.cache
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\obj\Debug\02.CodeFormatting.exe
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\02-Code Formatting\02.CodeFormatting\obj\Debug\02.CodeFormatting.pdb

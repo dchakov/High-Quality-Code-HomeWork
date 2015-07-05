@@ -1,0 +1,6 @@
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task4.Mines\bin\Debug\Task4.Mines.exe.config
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task4.Mines\obj\Debug\Task4.MineSweeper.csprojResolveAssemblyReference.cache
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task4.Mines\bin\Debug\Task4.Mines.exe
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task4.Mines\bin\Debug\Task4.Mines.pdb
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task4.Mines\obj\Debug\Task4.Mines.exe
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task4.Mines\obj\Debug\Task4.Mines.pdb

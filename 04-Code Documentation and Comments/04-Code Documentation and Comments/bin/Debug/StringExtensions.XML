@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.ILS.Common.StringExtensions">
+            <summary>
+            Class providing string extension methods
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            Converts string to byte array, compute the hash, 
+            format each one as a hexadecimal string and return a hexadecimal string.
+            </summary>
+            <param name="input">A string to convert.</param>
+            <returns>The string as hexadecimal string.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Checks if the input string is contained in given string array
+            Case-insensitive.
+            </summary>
+            <param name="input">A string</param>
+            <returns>True or False</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)">
+            <summary>
+            The method tries to convert the input string to short
+            </summary>
+            <param name="input">A string containing a number to convert.</param>
+            <returns>Short number or null</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)">
+            <summary>
+            The method tries to convert the input string to integer
+            </summary>
+            <param name="input">A string containing a number to convert.</param>
+            <returns>Integer number or null</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)">
+            <summary>
+            The method tries to convert the input string to long
+            </summary>
+            <param name="input">A string containing a number to convert.</param>
+            <returns>Long number or null</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            The method tries to convert the input string to DateTime format
+            </summary>
+            <param name="input">A string containing a date to convert.</param>
+            <returns>DateTime format or null</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            The metod capitalizes first letter of the input string
+            </summary>
+            <param name="input">A string </param>
+            <returns>Capitalized string </returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Returns substring betweent two input strings
+            </summary>
+            <param name="input">A string</param>
+            <param name="startString">A string</param>
+            <param name="endString">A string</param>
+            <param name="startFrom">An integer number</param>
+            <returns>The substring between input strings or empty string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            Replaces cyrillic with latin letters in string
+            </summary>
+            <param name="input">A string</param>
+            <returns>String with latin letters</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            Replace latin with cyrillic lettes in string
+            </summary>
+            <param name="input">A string</param>
+            <returns>String with cyrillic lettrers</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Replaces all invalid symbols with empty string
+            </summary>
+            <param name="input">A string</param>
+            <returns>Valid username</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Replaces all invalid symbols with empty string
+            </summary>
+            <param name="input">A string</param>
+            <returns>Valid file name</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Returns substring with inputed length
+            </summary>
+            <param name="input">A string</param>
+            <param name="charsCount">An integer number</param>
+            <returns>Substring with inputed lenght or whole string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Returns file extension of filename
+            </summary>
+            <param name="fileName">A string</param>
+            <returns>The file extension</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+            <summary>
+            Returns the content type depending fileextension
+            </summary>
+            <param name="fileExtension">A string</param>
+            <returns>content type or "application/octet-stream"</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Converts string to byte array
+            </summary>
+            <param name="input">A string</param>
+            <returns>byte array of string</returns>
+        </member>
+    </members>
+</doc>

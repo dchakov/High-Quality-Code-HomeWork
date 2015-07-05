@@ -1,0 +1,2 @@
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\05-Variables Data Expressions and Constants\VariablesDataExpressionsAndConstants\bin\Debug\Task01ClassSize.exe.config
+C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\05-Variables Data Expressions and Constants\VariablesDataExpressionsAndConstants\obj\Debug\VariablesDataExpressions.csprojResolveAssemblyReference.cache
