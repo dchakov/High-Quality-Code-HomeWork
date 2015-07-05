@@ -1,6 +1,0 @@
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task2.Person\bin\Debug\Task2.Person.exe.config
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task2.Person\bin\Debug\Task2.Person.exe
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task2.Person\bin\Debug\Task2.Person.pdb
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task2.Person\obj\Debug\Task2.Person.csprojResolveAssemblyReference.cache
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task2.Person\obj\Debug\Task2.Person.exe
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task2.Person\obj\Debug\Task2.Person.pdb
