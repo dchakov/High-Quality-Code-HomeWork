@@ -1,6 +1,0 @@
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task1.Class\obj\Debug\Task1.Class.exe
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task1.Class\obj\Debug\Task1.Class.pdb
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task1.Class\bin\Debug\Task1.Class.exe.config
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task1.Class\bin\Debug\Task1.Class.exe
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task1.Class\bin\Debug\Task1.Class.pdb
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\03-Naming Identifiers\Task1.Class\obj\Debug\Task1.BoolToString.csprojResolveAssemblyReference.cache

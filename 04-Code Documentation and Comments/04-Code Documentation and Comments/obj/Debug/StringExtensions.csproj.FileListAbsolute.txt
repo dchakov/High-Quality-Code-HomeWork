@@ -1,6 +1,0 @@
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\04-Code Documentation and Comments\04-Code Documentation and Comments\bin\Debug\StringExtensions.dll
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\04-Code Documentation and Comments\04-Code Documentation and Comments\bin\Debug\StringExtensions.pdb
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\04-Code Documentation and Comments\04-Code Documentation and Comments\obj\Debug\StringExtensions.csprojResolveAssemblyReference.cache
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\04-Code Documentation and Comments\04-Code Documentation and Comments\obj\Debug\StringExtensions.dll
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\04-Code Documentation and Comments\04-Code Documentation and Comments\obj\Debug\StringExtensions.pdb
-C:\Users\Nevena\Dropbox\education\ChapterVIII_HW_HQC\High-Quality-Code-HW\04-Code Documentation and Comments\04-Code Documentation and Comments\bin\Debug\StringExtensions.XML
