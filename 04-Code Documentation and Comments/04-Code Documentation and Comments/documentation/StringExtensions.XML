@@ -62,7 +62,7 @@
         </member>
         <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
             <summary>
-            Returns substring betweent two input strings
+            Returns a substring between two input strings
             </summary>
             <param name="input">A string</param>
             <param name="startString">A string</param>
@@ -115,7 +115,7 @@
         </member>
         <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
             <summary>
-            Returns the content type depending fileextension
+            Returns the content type depending file extension
             </summary>
             <param name="fileExtension">A string</param>
             <returns>content type or "application/octet-stream"</returns>
@@ -125,7 +125,7 @@
             Converts string to byte array
             </summary>
             <param name="input">A string</param>
-            <returns>byte array of string</returns>
+            <returns>Byte array of string</returns>
         </member>
     </members>
 </doc>

@@ -15,11 +15,31 @@
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.0</FrameworkVersion>
     <OutputPath>.\Help\</OutputPath>
-    <HtmlHelpName>Documentation</HtmlHelpName>
+    <HtmlHelpName>TelerikILSCommon Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\bin\Debug\StringExtensions.dll" xmlns="" />
-<DocumentationSource sourceFile="..\bin\Debug\StringExtensions.xml" xmlns="" /></DocumentationSources>
+      <DocumentationSource sourceFile="..\bin\Debug\StringExtensions.xml" xmlns="" />
+    </DocumentationSources>
+    <MaximumGroupParts>2</MaximumGroupParts>
+    <NamespaceGrouping>False</NamespaceGrouping>
+    <SyntaxFilters>Standard</SyntaxFilters>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <PresentationStyle>VS2013</PresentationStyle>
+    <Preliminary>False</Preliminary>
+    <NamingMethod>Guid</NamingMethod>
+    <HelpTitle>Telerik.ILS.Common Documentation</HelpTitle>
+    <CopyrightText>Telerik</CopyrightText>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <RootNamespaceTitle>
+    </RootNamespaceTitle>
+    <HeaderText>
+    </HeaderText>
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="(global)" isDocumented="True" />
+      <NamespaceSummaryItem name="Telerik.ILS.Common" isDocumented="True">TelerikILSCommon</NamespaceSummaryItem>
+    </NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
