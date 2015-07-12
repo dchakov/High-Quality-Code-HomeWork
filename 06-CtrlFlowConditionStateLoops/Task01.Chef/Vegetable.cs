@@ -4,8 +4,6 @@
     {
         public Vegetable()
         {
-            this.IsPeeled = false;
-            this.IsRotten = false;
         }
 
         public bool IsPeeled { get; set; }
