@@ -4,7 +4,7 @@
 
     public class Chef
     {
-        public void Cook()
+        public void CookDish()
         {
             Potato potato = this.GetPotato();
             this.Peel(potato);
@@ -20,6 +20,12 @@
 
             Console.WriteLine(bowl.ToString());
         }
+
+        public void Cook(Vegetable vegetable)
+        {
+            Console.WriteLine("Cook vegetable {0}", vegetable);
+        }
+
         private Bowl GetBowl()
         {
             return new Bowl();
@@ -37,12 +43,12 @@
 
         private void Peel(Vegetable vegetable)
         {
-            Console.WriteLine("Peeling vegetable {0}", vegetable);
+            Console.WriteLine("Peel vegetable {0}", vegetable);
         }
 
         private void Cut(Vegetable vegetable)
         {
-            Console.WriteLine("Cuting vegetable {0}", vegetable);
+            Console.WriteLine("Cut vegetable {0}", vegetable);
         }
     }
 }

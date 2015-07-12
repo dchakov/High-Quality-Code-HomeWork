@@ -4,8 +4,8 @@
     {
         public static void Main()
         {
-            var chef = new Chef();
-            chef.Cook();
+            Chef chef = new Chef();
+            chef.CookDish();
         }
     }
 }
