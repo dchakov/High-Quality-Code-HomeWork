@@ -25,12 +25,14 @@
             {
                 return this.firstName;
             }
+
             set
             {
                 if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentNullException("First name cannot be null or empty");
                 }
+
                 this.firstName = value;
             }
         }
@@ -41,12 +43,14 @@
             {
                 return this.lastName;
             }
+
             set
             {
                 if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentNullException("Last name cannot be null or empty");
                 }
+
                 this.lastName = value;
             }
         }
@@ -57,12 +61,14 @@
             {
                 return this.otherInfo;
             }
+
             set
             {
                 if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentNullException("Other info cannot be null or empty");
                 }
+
                 this.otherInfo = value;
             }
         }
@@ -73,13 +79,14 @@
             {
                 throw new ArgumentException("Argumet is not an instnce of Student");
             }
+
             if (string.IsNullOrEmpty(other.OtherInfo))
             {
                 throw new ArgumentNullException("Other student otherInfo is null or empty");
             }
 
-            DateTime firstStudentBirthday = GetBirthdayFromOtherInfo(this);
-            DateTime secondStudentBirthday = GetBirthdayFromOtherInfo(other);
+            DateTime firstStudentBirthday = this.GetBirthdayFromOtherInfo(this);
+            DateTime secondStudentBirthday = this.GetBirthdayFromOtherInfo(other);
                
             return firstStudentBirthday < secondStudentBirthday;
         }

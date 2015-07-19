@@ -72,19 +72,20 @@
             }
         }
 
-        internal static double CalculateDistanceBetweenTwoPoints(
-            double firstPointX,
-            double firstPointY,
-            double secondPointX,
-            double secondPointY,
-            out bool isHorizontal,
-            out bool isVertical)
+        internal static double CalculateDistanceBetweenTwoPoints(double firstPointX, double firstPointY, double secondPointX, double secondPointY)
         {
-            isHorizontal = (firstPointY == secondPointY);
-            isVertical = (firstPointX == secondPointX);
-
             double distance = Math.Sqrt(((secondPointX - firstPointX) * (secondPointX - firstPointX)) + ((secondPointY - firstPointY) * (secondPointY - firstPointY)));
             return distance;
+        }
+
+        internal static bool CheckIfLinePositionIsHorizontal(double firstPointX, double firstPointY, double secondPointX, double secondPointY)
+        {
+            return firstPointY == secondPointY;
+        }
+
+        internal static bool CheckIfLinePositionIsVertical(double firstPointX, double firstPointY, double secondPointX, double secondPointY)
+        {
+            return firstPointX == secondPointX;
         }
 
         internal static void Main()
@@ -98,11 +99,10 @@
             PrintAsNumber(1.3, "float");
             PrintAsNumber(0.75, "percent");
             PrintAsNumber(2.30, "padLeft");
-
-            bool horizontal, vertical;
-            Console.WriteLine(CalculateDistanceBetweenTwoPoints(3, -1, 3, 2.5, out horizontal, out vertical));
-            Console.WriteLine("Horizontal? " + horizontal);
-            Console.WriteLine("Vertical? " + vertical);
+            
+            Console.WriteLine(CalculateDistanceBetweenTwoPoints(3, -1, 3, 2.5));
+            Console.WriteLine("Horizontal? " + CheckIfLinePositionIsHorizontal(3, -1, 3, 2.5));
+            Console.WriteLine("Vertical? " + CheckIfLinePositionIsVertical(3, -1, 3, 2.5));
 
             Student peter = new Student("Peter", "Ivanov", "From Sofia, born at 17.03.1992");
 
