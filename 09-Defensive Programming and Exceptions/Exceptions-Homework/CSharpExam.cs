@@ -1,28 +1,39 @@
-﻿using System;
-
-public class CSharpExam : Exam
+﻿namespace Exceptions_Homework
 {
-    public int Score { get; private set; }
+    using System;
 
-    public CSharpExam(int score)
+    public class CSharpExam : Exam
     {
-        if (score < 0)
+        private const int MinScore = 0;
+        private const int MaxScore = 100;
+        private int score;
+
+        public CSharpExam(int score)
         {
-            throw new NullReferenceException();
+            this.Score = score;
         }
 
-        this.Score = score;
-    }
+        public int Score
+        {
+            get
+            {
+                return this.score;
+            }
 
-    public override ExamResult Check()
-    {
-        if (Score < 0 || Score > 100)
-        {
-            throw new InvalidOperationException();
+            set
+            {
+                if (value < MinScore || value > MaxScore)
+                {
+                    throw new ArgumentException("The score must be between 0 and 100");
+                }
+
+                this.score = value;
+            }
         }
-        else
+
+        public override ExamResult Check()
         {
-            return new ExamResult(this.Score, 0, 100, "Exam results calculated by score.");
+            return new ExamResult(this.Score, MinScore, MaxScore, "Exam results calculated by score.");
         }
     }
 }

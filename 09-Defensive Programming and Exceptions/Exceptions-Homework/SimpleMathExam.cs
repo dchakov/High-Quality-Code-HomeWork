@@ -1,38 +1,61 @@
-﻿using System;
-
-public class SimpleMathExam : Exam
+﻿namespace Exceptions_Homework
 {
-    public int ProblemsSolved { get; private set; }
+    using System;
 
-    public SimpleMathExam(int problemsSolved)
+    public class SimpleMathExam : Exam
     {
-        if (problemsSolved < 0)
+        private const int MinProblemSolved = 0;
+        private const int MaxProblemSolved = 10;
+        private const int BadResult = 2;
+        private const int AverageResult = 4;
+        private const int VeryGoodResult = 6;
+        private int problemsSolved;
+
+        public SimpleMathExam(int problemsSolved)
         {
-            problemsSolved = 0;
-        }
-        if (problemsSolved > 10)
-        {
-            problemsSolved = 10;
+            this.ProblemsSolved = problemsSolved;
         }
 
-        this.ProblemsSolved = problemsSolved;
-    }
+        public int ProblemsSolved
+        {
+            get
+            {
+                if (this.problemsSolved < MinProblemSolved)
+                {
+                    return MinProblemSolved;
+                }
+                else if (this.problemsSolved > MaxProblemSolved)
+                {
+                    return MaxProblemSolved;
+                }
+                else
+                {
+                    return this.problemsSolved;
+                }
+            }
 
-    public override ExamResult Check()
-    {
-        if (ProblemsSolved == 0)
-        {
-            return new ExamResult(2, 2, 6, "Bad result: nothing done.");
-        }
-        else if (ProblemsSolved == 1)
-        {
-            return new ExamResult(4, 2, 6, "Average result: nothing done.");
-        }
-        else if (ProblemsSolved == 2)
-        {
-            return new ExamResult(6, 2, 6, "Average result: nothing done.");
+            private set
+            {
+                this.problemsSolved = value;
+            }
         }
 
-        return new ExamResult(0, 0, 0, "Invalid number of problems solved!");
+        public override ExamResult Check()
+        {
+            if (this.ProblemsSolved == 0)
+            {
+                return new ExamResult(BadResult, BadResult, VeryGoodResult, "Bad result: nothing done.");
+            }
+            else if (this.ProblemsSolved == 1)
+            {
+                return new ExamResult(AverageResult, BadResult, VeryGoodResult, "Average result: nothing done.");
+            }
+            else if (this.ProblemsSolved == 2)
+            {
+                return new ExamResult(VeryGoodResult, BadResult, VeryGoodResult, "Average result: nothing done.");
+            }
+
+            return new ExamResult(0, 0, 0, "Invalid number of problems solved!");
+        }
     }
 }
