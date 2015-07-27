@@ -16,10 +16,18 @@ namespace SolarSystem
         const double TwoPi = Math.PI * 2;
 
         private double _daysPerSecond = 2;
+
         public double DaysPerSecond
         {
-            get { return _daysPerSecond; }
-            set { _daysPerSecond = value; Update("DaysPerSecond"); }
+            get
+            {
+                return _daysPerSecond;
+            }
+            set
+            {
+                _daysPerSecond = value;
+                Update("DaysPerSecond");
+            }
         }
 
         public double EarthOrbitRadius { get { return 40; } set { } }
@@ -69,7 +77,7 @@ namespace SolarSystem
         void OnTimerTick(object sender, EventArgs e)
         {
             var now = DateTime.Now;
-            Days += (now-_startTime).TotalMilliseconds * DaysPerSecond / 1000.0 * (ReverseTime?-1:1);
+            Days += (now - _startTime).TotalMilliseconds * DaysPerSecond / 1000.0 * (ReverseTime ? -1 : 1);
             _startTime = now;
             Update("Days");
             OnTimeChanged();
@@ -93,10 +101,10 @@ namespace SolarSystem
 
         private void EarthRotation()
         {
-			for (decimal step = 0; step <= 360; step+=0.00005m)
-			{
-				EarthRotationAngle = ((double)step) * Days / EarthRotationPeriod;
-			}
+            for (double step = 0; step <= 360; step += 0.00005)
+            {
+                EarthRotationAngle = step * Days / EarthRotationPeriod;
+            }
             Update("EarthRotationAngle");
         }
 
