@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>c:\users\nevena\dropbox\education\chapterviii_hw_hqc\high-quality-code-homework\11-unit testing\school\school.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+namespace StudentsAndCourses
+{
+    using System;
+    using System.Collections.Generic;
+
+    public class School
+    {
+        private string schoolName;
+        private ICollection&lt;Course&gt; courses;
+
+        public School(string schoolName)
+        {
+            this.SchoolName = schoolName;
+            this.courses = new List&lt;Course&gt;();
+        }
+
+        public string SchoolName
+        {
+            get
+            { 
+                return this.schoolName;
+            }
+
+            private set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException(&quot;School name cannot be null or empty&quot;);
+                }
+
+                this.schoolName = value;
+            }
+        }
+
+        public ICollection&lt;Course&gt; Courses
+        {
+            get
+            {
+                return new List&lt;Course&gt;(this.courses);
+            }
+        }
+
+        public void AddCourse(Course course)
+        {
+            if (this.courses.Contains(course))
+            {
+                throw new ArgumentException(&quot;Course already exist&quot;);
+            }
+
+            if (course == null)
+            {
+                throw new ArgumentNullException(&quot;Course cannot be null&quot;);
+            }
+
+            this.courses.Add(course);
+        }
+    }
+}
+
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[11,9,11,41,1],[12,9,12,10,1],[13,13,13,42,1],[14,13,14,47,1],[15,9,15,10,1],[20,13,20,14,1],[21,17,21,40,1],[22,13,22,14,1],[25,13,25,14,1],[26,17,26,49,1],[27,17,27,18,1],[28,21,28,92,1],[31,17,31,41,1],[32,13,32,14,1],[38,13,38,14,1],[39,17,39,55,1],[40,13,40,14,1],[44,9,44,10,1],[45,13,45,47,1],[46,13,46,14,1],[47,17,47,69,1],[50,13,50,32,1],[51,13,51,14,1],[52,17,52,74,1],[55,13,55,38,1],[56,9,56,10,1]]);
+    </script>
+  </body>
+</html>

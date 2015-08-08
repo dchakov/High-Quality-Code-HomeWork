@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>c:\users\nevena\dropbox\education\chapterviii_hw_hqc\high-quality-code-homework\11-unit testing\school\course.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+namespace StudentsAndCourses
+{
+    using System;
+    using System.Collections.Generic;
+
+    public class Course
+    {
+        public const byte MaxStudentInCourse = 29;
+        private string courseName;
+        private ICollection&lt;Student&gt; students;
+
+        public Course(string courseName)
+        {
+            this.CourseName = courseName;
+            this.students = new List&lt;Student&gt;();
+        }
+
+        public string CourseName
+        {
+            get
+            {
+                return this.courseName;
+            }
+
+            private set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException(&quot;Course name cannot be null or empty&quot;);
+                }
+
+                this.courseName = value;
+            }
+        }
+
+        public ICollection&lt;Student&gt; Students
+        {
+            get
+            {
+                return new List&lt;Student&gt;(this.students);
+            }
+        }
+
+        public void AddStudent(Student student)
+        {
+            if (this.students.Contains(student))
+            {
+                throw new ArgumentException(&quot;Student already exist&quot;);
+            }
+
+            if (student == null)
+            {
+                throw new ArgumentNullException(&quot;Student cannot be null&quot;);
+            }
+
+            if (this.students.Count &gt; MaxStudentInCourse)
+            {
+                throw new ArgumentOutOfRangeException(&quot;Course is full&quot;);
+            }
+
+            this.students.Add(student);
+        }
+
+        public void RemoveStudent(Student student)
+        {
+            if (student == null)
+            {
+                throw new ArgumentNullException(&quot;Student cannot be null&quot;);
+            }
+
+            if (!this.students.Contains(student))
+            {
+                throw new ArgumentException(&quot;No such student&quot;);
+            }
+
+            this.students.Remove(student);
+        }
+    }
+}
+
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[12,9,12,41,1],[13,9,13,10,1],[14,13,14,42,1],[15,13,15,49,1],[16,9,16,10,1],[21,13,21,14,1],[22,17,22,40,1],[23,13,23,14,1],[26,13,26,14,1],[27,17,27,49,1],[28,17,28,18,1],[29,21,29,92,1],[32,17,32,41,1],[33,13,33,14,1],[39,13,39,14,1],[40,17,40,57,1],[41,13,41,14,1],[45,9,45,10,1],[46,13,46,49,1],[47,13,47,14,1],[48,17,48,70,1],[51,13,51,33,1],[52,13,52,14,1],[53,17,53,75,1],[56,13,56,58,1],[57,13,57,14,1],[58,17,58,73,1],[61,13,61,40,1],[62,9,62,10,1],[65,9,65,10,1],[66,13,66,33,1],[67,13,67,14,1],[68,17,68,75,1],[71,13,71,50,1],[72,13,72,14,1],[73,17,73,64,1],[76,13,76,43,1],[77,9,77,10,1]]);
+    </script>
+  </body>
+</html>
