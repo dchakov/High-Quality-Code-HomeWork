@@ -18,7 +18,8 @@ namespace Poker
                 new Card(CardFace.Seven, CardSuit.Diamonds),
             });
             Console.WriteLine(hand);
-
+            Console.WriteLine((int)CardFace.Ace);
+            Console.WriteLine((int)hand.Cards[0].Face);
             IPokerHandsChecker checker = new PokerHandsChecker();
             Console.WriteLine(checker.IsValidHand(hand));
             //Console.WriteLine(checker.IsOnePair(hand));
