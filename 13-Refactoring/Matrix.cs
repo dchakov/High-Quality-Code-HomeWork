@@ -52,6 +52,7 @@
                     {
                         directionX = 1;
                         directionY = 1;
+                        cellValue++;
                         this.matrix[row, col] = cellValue;
                     }
                     else
