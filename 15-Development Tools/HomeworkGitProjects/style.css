@@ -1,3 +1,21 @@
 #table-content tr td{
 	text-align: left;
 }
+body header{
+	text-align: center;
+}
+.back{
+	color: red;
+}
+
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
