@@ -209,5 +209,4 @@ FakesAssemblies/
 *.opt
 
 *.config
-*.csproj
 *.StyleCop

@@ -4,13 +4,14 @@
 body header{
 	text-align: center;
 }
-.back{
-	color: red;
+
+a {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
 }
-
-
-a:visited {
-    color: pink;
+a:link a:visited {
+    color: darkgreen;
     background-color: transparent;
     text-decoration: none;
 }
@@ -18,4 +19,7 @@ a:hover {
     color: green;
     background-color: transparent;
     text-decoration: underline;
+}
+.back{
+	color: red;
 }
