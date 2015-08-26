@@ -107,10 +107,6 @@
             Student peter = new Student("Peter", "Ivanov", "From Sofia, born at 17.03.1992");
 
             Student stella = new Student("Stella", "Markova", "From Vidin, gamer, high results, born at 03.11.1993");
-            Console.WriteLine(peter.OtherInfo.Length - 10);
-
-            Console.WriteLine(peter.GetBirthdayFromOtherInfo(peter));
-            Console.WriteLine(stella.GetBirthdayFromOtherInfo(stella));
 
             Console.WriteLine("{0} older than {1} -> {2}", peter.FirstName, stella.FirstName, peter.IsOlderThan(stella));
         }

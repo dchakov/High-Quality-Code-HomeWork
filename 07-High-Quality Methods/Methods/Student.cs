@@ -7,7 +7,11 @@
         private string firstName;
         private string lastName;
         private string otherInfo;
-                
+        
+        public Student()
+        {
+        }
+
         public Student(string firstName, string lastName, string otherInfo)
         {
             this.FirstName = firstName;
@@ -82,7 +86,7 @@
             }
 
             DateTime firstStudentBirthday = this.GetBirthdayFromOtherInfo(this);
-            DateTime secondStudentBirthday = other.GetBirthdayFromOtherInfo(other);
+            DateTime secondStudentBirthday = this.GetBirthdayFromOtherInfo(other);
                
             return firstStudentBirthday < secondStudentBirthday;
         }
