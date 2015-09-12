@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{3C8F5E83-CED9-4777-B1E3-5F7220C98B68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{370185F9-FD41-41DE-9ECE-9C5FF261E61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{75F26FD1-C94C-4014-B83A-CFDAFF851ECE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +17,14 @@ Global
 		{3C8F5E83-CED9-4777-B1E3-5F7220C98B68}.Debug|x86.Build.0 = Debug|x86
 		{3C8F5E83-CED9-4777-B1E3-5F7220C98B68}.Release|x86.ActiveCfg = Release|x86
 		{3C8F5E83-CED9-4777-B1E3-5F7220C98B68}.Release|x86.Build.0 = Release|x86
+		{370185F9-FD41-41DE-9ECE-9C5FF261E61B}.Debug|x86.ActiveCfg = Debug|x86
+		{370185F9-FD41-41DE-9ECE-9C5FF261E61B}.Debug|x86.Build.0 = Debug|x86
+		{370185F9-FD41-41DE-9ECE-9C5FF261E61B}.Release|x86.ActiveCfg = Release|x86
+		{370185F9-FD41-41DE-9ECE-9C5FF261E61B}.Release|x86.Build.0 = Release|x86
+		{75F26FD1-C94C-4014-B83A-CFDAFF851ECE}.Debug|x86.ActiveCfg = Debug|x86
+		{75F26FD1-C94C-4014-B83A-CFDAFF851ECE}.Debug|x86.Build.0 = Debug|x86
+		{75F26FD1-C94C-4014-B83A-CFDAFF851ECE}.Release|x86.ActiveCfg = Release|x86
+		{75F26FD1-C94C-4014-B83A-CFDAFF851ECE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
