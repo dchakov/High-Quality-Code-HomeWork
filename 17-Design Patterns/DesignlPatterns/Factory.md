@@ -16,7 +16,7 @@ Factory Method дефинира интерфейс за създаване на 
 
 ##### Имплементация
 
-```    
+```c#    
 static class Program
 {
     static void Main()

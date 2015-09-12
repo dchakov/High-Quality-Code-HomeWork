@@ -17,7 +17,7 @@ XML документи
 
 ##### Имплементация
 
-```    
+```c#   
 using System;
  using System.Collections;
 
