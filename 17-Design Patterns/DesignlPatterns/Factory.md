@@ -79,7 +79,7 @@ public class ConcreteProduct2 : ProductBase {
 
 8. Структура
 
-![](https://github.com/dchakov/High-Quality-Code-HomeWork/blob/master/17-Design%20Patterns/DesignlPatterns/images/Factory_Method.jpeg)
+![](https://github.com/dchakov/High-Quality-Code-HomeWork/blob/master/17-Design%20Patterns/DesignlPatterns/images/Factory_Method.jpg)
 
 9. Сродни модели
 
