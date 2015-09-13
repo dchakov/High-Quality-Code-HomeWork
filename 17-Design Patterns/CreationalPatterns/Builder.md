@@ -144,5 +144,5 @@ Director
 
 ##### Структура
 
-![](https://github.com/dchakov/High-Quality-Code-HomeWork/blob/master/17-Design%20Patterns/DesignlPatterns/images/Builder.jpg)
+![](https://github.com/dchakov/High-Quality-Code-HomeWork/blob/master/17-Design%20Patterns/CreationalPatterns/images/Builder.jpg)
 

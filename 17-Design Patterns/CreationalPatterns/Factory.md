@@ -81,7 +81,7 @@ ConcreteProduct
 
 ##### Структура
 
-![](https://github.com/dchakov/High-Quality-Code-HomeWork/blob/master/17-Design%20Patterns/DesignlPatterns/images/Factory_Method.jpg)
+![](https://github.com/dchakov/High-Quality-Code-HomeWork/blob/master/17-Design%20Patterns/CreationalPatterns/images/Factory_Method.jpg)
 
 ##### Сродни модели
 

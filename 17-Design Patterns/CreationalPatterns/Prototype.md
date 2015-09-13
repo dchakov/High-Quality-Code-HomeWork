@@ -64,5 +64,5 @@ ConcretePrototype
 
 ##### Структура
 
-![](https://github.com/dchakov/High-Quality-Code-HomeWork/blob/master/17-Design%20Patterns/DesignlPatterns/images/Prototype.jpg)
+![](https://github.com/dchakov/High-Quality-Code-HomeWork/blob/master/17-Design%20Patterns/CreationalPatterns/images/Prototype.jpg)
 
