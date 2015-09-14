@@ -8,11 +8,11 @@ Composite design pattern се използва когато се създава�
 ##### Цел
 
 Целта на този дизайн е да композира обектите в дървовидна структура която да представи част или цялата йерархия.
-Позволява на клиента да третира индивидуалните обекти и компоненти по един с същи начин.
+
  
 ##### Приложение
 
-Когато имаме различни обекти и искаме да ги третираме по един и същи начин.
+Позволява на клиента да третира индивидуалните обекти и компоненти по един с същи начин.
 
 ##### Употреба
 Windows.Forms.Control
@@ -25,8 +25,7 @@ System.Xml.XmlNode
 ##### Имплементация
 
 ```c#    
-namespace Composite
-{
+
     public abstract class Component
     {
         protected readonly string name;
@@ -39,13 +38,9 @@ namespace Composite
         public abstract void Operation();
         public abstract void Display(int depth);
     }
-}
 
-using System;
-using System.Collections.Generic;
 
-namespace Composite
-{
+
     public class Composite : Component
     {
         private readonly List<Component> children;
@@ -81,12 +76,9 @@ namespace Composite
             }
         }
     }
-}
 
-using System;
 
-namespace Composite
-{
+
     public class Leaf:Component
     {
         public Leaf(string name)
@@ -104,10 +96,9 @@ namespace Composite
             Console.WriteLine(new String('-', depth) + name);
         }
     }
-}
 
-namespace Composite
-{
+
+
     public class Program
     {
         public static void Main()
@@ -130,7 +121,6 @@ namespace Composite
             root.Display(1);
         }
     }
-}
 
 ```
 ##### Участници
