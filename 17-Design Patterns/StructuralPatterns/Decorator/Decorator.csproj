@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cheese.cs" />
+    <Compile Include="Corn.cs" />
+    <Compile Include="Olives.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sandwich.cs" />
+    <Compile Include="SandwichDecorator.cs" />
+    <Compile Include="TunaSandwich.cs" />
+    <Compile Include="VeggieSandwich.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
