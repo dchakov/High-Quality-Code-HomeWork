@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{1C56E5AA-53FD-4EAD-BDA2-47D48260E9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{255306A0-1C05-4D82-9E00-27184CCAEC7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C56E5AA-53FD-4EAD-BDA2-47D48260E9A0}.Debug|x86.ActiveCfg = Debug|x86
+		{1C56E5AA-53FD-4EAD-BDA2-47D48260E9A0}.Debug|x86.Build.0 = Debug|x86
+		{1C56E5AA-53FD-4EAD-BDA2-47D48260E9A0}.Release|x86.ActiveCfg = Release|x86
+		{1C56E5AA-53FD-4EAD-BDA2-47D48260E9A0}.Release|x86.Build.0 = Release|x86
+		{255306A0-1C05-4D82-9E00-27184CCAEC7E}.Debug|x86.ActiveCfg = Debug|x86
+		{255306A0-1C05-4D82-9E00-27184CCAEC7E}.Debug|x86.Build.0 = Debug|x86
+		{255306A0-1C05-4D82-9E00-27184CCAEC7E}.Release|x86.ActiveCfg = Release|x86
+		{255306A0-1C05-4D82-9E00-27184CCAEC7E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
