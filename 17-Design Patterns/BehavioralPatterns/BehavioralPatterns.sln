@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{17739A12-B00B-4E80-921A-7BAAF16140B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{8EF98FDA-E5C0-4236-8201-CBD4713B9FBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{17739A12-B00B-4E80-921A-7BAAF16140B2}.Debug|x86.Build.0 = Debug|x86
 		{17739A12-B00B-4E80-921A-7BAAF16140B2}.Release|x86.ActiveCfg = Release|x86
 		{17739A12-B00B-4E80-921A-7BAAF16140B2}.Release|x86.Build.0 = Release|x86
+		{8EF98FDA-E5C0-4236-8201-CBD4713B9FBF}.Debug|x86.ActiveCfg = Debug|x86
+		{8EF98FDA-E5C0-4236-8201-CBD4713B9FBF}.Debug|x86.Build.0 = Debug|x86
+		{8EF98FDA-E5C0-4236-8201-CBD4713B9FBF}.Release|x86.ActiveCfg = Release|x86
+		{8EF98FDA-E5C0-4236-8201-CBD4713B9FBF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
