@@ -17,6 +17,7 @@ interface IElementBase
     {
         void Accept(IVisitorBase visitor);
     }
+
 public class Body : IElementBase
     {
         public Body(string name)
@@ -31,6 +32,7 @@ public class Body : IElementBase
             visitor.Visit(this);
         }
     }
+
 public class Engine : IElementBase
     {
         public Engine(string name)
@@ -45,6 +47,7 @@ public class Engine : IElementBase
             visitor.Visit(this);
         }
     }
+
 public class Wheel : IElementBase
     {
         public Wheel(string name)
@@ -61,6 +64,7 @@ public class Wheel : IElementBase
             visitor.Visit(this);
         }
     }
+
 public class Transmission : IElementBase
     {
         public Transmission(string name)
@@ -75,6 +79,7 @@ public class Transmission : IElementBase
             visitor.Visit(this);
         }
     }
+
 public interface IVisitorBase
     {
         void Visit(Wheel wheel);
@@ -82,6 +87,7 @@ public interface IVisitorBase
         void Visit(Engine engine);
         void Visit(Transmission transmission);
     }
+
 public class CarElementPrintVisitor : IVisitorBase
     {
         public void Visit(Wheel wheel)
@@ -104,6 +110,7 @@ public class CarElementPrintVisitor : IVisitorBase
             Console.WriteLine("Transmission: {0}", transmission.Name);
         }
     }
+
  public class Car : IElementBase
     {
         private readonly List<IElementBase> parts;
@@ -130,6 +137,7 @@ public class CarElementPrintVisitor : IVisitorBase
             }
         }
     }
+
 public class Program
     {
         static void Main()
