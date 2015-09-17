@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{4E674C8A-1646-439B-95FC-C750AEB97002}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{17739A12-B00B-4E80-921A-7BAAF16140B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{4E674C8A-1646-439B-95FC-C750AEB97002}.Debug|x86.Build.0 = Debug|x86
 		{4E674C8A-1646-439B-95FC-C750AEB97002}.Release|x86.ActiveCfg = Release|x86
 		{4E674C8A-1646-439B-95FC-C750AEB97002}.Release|x86.Build.0 = Release|x86
+		{17739A12-B00B-4E80-921A-7BAAF16140B2}.Debug|x86.ActiveCfg = Debug|x86
+		{17739A12-B00B-4E80-921A-7BAAF16140B2}.Debug|x86.Build.0 = Debug|x86
+		{17739A12-B00B-4E80-921A-7BAAF16140B2}.Release|x86.ActiveCfg = Release|x86
+		{17739A12-B00B-4E80-921A-7BAAF16140B2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
