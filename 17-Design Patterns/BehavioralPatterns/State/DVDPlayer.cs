@@ -32,5 +32,4 @@ namespace State
             set { this.state = value; }
         }
     }
-
 }
