@@ -13,10 +13,11 @@
             mockedCarsRepository.Setup(r => r.Add(It.IsAny<Car>())).Verifiable();
             mockedCarsRepository.Setup(r => r.All()).Returns(this.FakeCarCollection);
 
-            mockedCarsRepository.Setup(r => r.Search(It.IsAny<string>())).Returns(this.FakeCarCollection.Where(c => c.Make == "BMW").ToList());
+            mockedCarsRepository.Setup(r => r.Search(It.IsAny<string>())).Returns(this.FakeCarCollection.ToList());
+            mockedCarsRepository.Setup(r => r.Search(It.IsNotNull<string>())).Returns((string condition) => this.FakeCarCollection.Where(c => c.Make.ToLower() == condition.ToLower()).ToList());
 
-            mockedCarsRepository.Setup(r => r.GetById(It.IsAny<int>())).Returns(this.FakeCarCollection.First());
-            //mockedCarsRepository.Setup(r => r.GetById(It.IsInRange<int>(0, this.FakeCarCollection.Count, Range.Inclusive))).Verifiable();
+            //mockedCarsRepository.Setup(r => r.GetById(It.IsAny<int>())).Returns(this.FakeCarCollection.First());
+            mockedCarsRepository.Setup(r => r.GetById(It.IsInRange<int>(0, this.FakeCarCollection.Count, Range.Inclusive))).Returns(this.FakeCarCollection.First()).Verifiable();
 
             mockedCarsRepository.Setup(r => r.SortedByMake()).Returns(this.FakeCarCollection.OrderBy(c => c.Make).ToList());
             mockedCarsRepository.Setup(r => r.SortedByYear()).Returns(this.FakeCarCollection.OrderBy(c => c.Year).ToList());

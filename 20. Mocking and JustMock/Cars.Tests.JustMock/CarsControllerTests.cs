@@ -83,7 +83,7 @@
         {
             var car = new Car
             {
-                Id = 15,
+                Id = 1,
                 Make = "BMW",
                 Model = "330d",
                 Year = 2014
@@ -134,7 +134,7 @@
         [TestMethod]
         public void SearchACarByModelShouldReturnCorrectResultAllModelsWhenEmptyCondition()
         {
-            var carModels = (ICollection<Car>)this.GetModel(() => this.controller.Search(""));
+            var carModels = (ICollection<Car>)this.GetModel(() => this.controller.Search(null));
 
             Assert.AreEqual(4, carModels.Count);
         }
